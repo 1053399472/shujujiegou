@@ -1,0 +1,12 @@
+/bin
+/include
+/lib
+/libexec
+/mingw32
+/share
+/var
+/.vscode
+README_inProject.md
+/python/.vscode/launch.json
+/python/hello.py
+/.vscode
