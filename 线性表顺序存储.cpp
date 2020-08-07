@@ -54,7 +54,7 @@ bool LocateSelect(Sqlist L, int i, ElemType &e)
         return false;
     e = L.data[i - 1];
     return true;
-}//顺序表的按位查找
+} //顺序表的按位查找
 
 void Listprint(Sqlist L)
 {
@@ -63,7 +63,7 @@ void Listprint(Sqlist L)
         printf("%d ", L.data[i]);
     }
     printf("\n");
-}//输出
+} //输出
 
 int main()
 {
@@ -74,14 +74,15 @@ int main()
   L.data[0]=1;
   L.data[1]=2;
   L.data[2]=3;
-  L.data[3]=4;*///单一输入
-    
+  L.data[3]=4;*/
+    //单一输入
+
     printf("please input L.length ");
     int n;
     scanf("%d", &L.length);
     printf("please input LNode ");
     for (int i = 0; i < L.length; i++)
-        scanf("%d", &L.data[i]);//连续输入
+        scanf("%d", &L.data[i]); //连续输入
 
     ret = ListInsert(L, 2, 60);
     if (ret)
@@ -116,7 +117,7 @@ int main()
     {
         printf("LocateElem is fail\n");
     }
-    
+
     ret = LocateSelect(L, 2, del);
     if (ret)
     {
